@@ -40,6 +40,14 @@ Template for developing Espressif FreeRTOS-based applications on the Espressif I
 [![Espressif][Espressif-shield]][Espressif-url]
 [![GitHub Actions][github-actions-shield]][github-actions-url]
 
+
+<!-- PROJECT PREVIEW -->
+## Preview
+
+<p align="center">
+  <img src="assets/img/preview.png" alt="Project Preview" width="80%">
+</p>
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -76,7 +84,7 @@ To get a local copy of the project up and running on your machine, follow these 
 
    ```sh
    clear && idf.py -p /dev/cu.usbmodem1101 -b 115200 flash monitor
-  ```
+   ```
 
 ## Usage
 
@@ -84,7 +92,7 @@ To get a local copy of the project up and running on your machine, follow these 
 ## Project Structure
 
 ```sh
-graphics/
+espressif/
 ├── .github/                       - GitHub Actions CI/CD workflows
 ├── include/                       - project header files
 ├── src/                           - project source files
