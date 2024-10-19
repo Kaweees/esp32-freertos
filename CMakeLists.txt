@@ -3,7 +3,5 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(dino)
-
-project(graphics CXX)
+project(espressif CXX)
 set(CMAKE_CXX_STANDARD 14) # Use C++14 standard for more features
